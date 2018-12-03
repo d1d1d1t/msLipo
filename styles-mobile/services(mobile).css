@@ -1,0 +1,333 @@
+
+	body{/*background-color:rgba(0,0,0,0.10);*/background-image:url("../images/15488-(edit).jpg");background-position:bottom;background-attachment:fixed;}
+		
+	
+	/*Insert .header CSS-HERE*/
+/*------------------------------------------------------------------*/
+/*|								=== |*/
+/*|								=== |*/
+/*|							        === |*/	
+/*-------------------------------------------------------------------*/
+
+
+
+	
+	.abt1{width:45%;grid-area:about;float:left;padding-right:10px;}
+	
+	.abt1-img{grid-area:about;width:100%;}
+	
+	.abt2{width:auto;grid-area:about;padding-right:5px;}
+	
+	.svc1{width:100%;grid-area:services;padding-right:10px;}
+	
+	.svc-img{grid-area:services;width:100%;border-radius:8px 8px 8px 8px;box-shadow:0px 3px 4px .3px rgba(000,000,000,.5);}
+	
+	.svc2{width:auto;grid-area:about;padding-right:5px;}
+	
+	.btn-text{text-decoration:none;font-family:"Montserrat";}
+	.btn-text >.consult-btn-graphic{
+		box-shadow: .5px .5px 2px .5px black;
+		border-radius:4px;
+		margin-bottom: 5px;
+		color:white;
+		text-decoration:none;
+		text-align:center;
+		
+		width: auto;
+		height:20px;
+		padding-top:2%;
+		padding-bottom:2%;
+		background-color:#E6038A;}
+		
+	.h-text{
+		background-color: #000000;
+  color: rgba(0,0,0,.20);
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+		margin:0px;
+	font-family:"Montserrat";
+}
+	.desc-cont{
+		color:white;
+		font-size:auto;
+		font-family:"Montserrat";
+		padding-left:20px;
+				
+		}
+	
+	.desc-cont{
+		background-color:#000000;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.1);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+		}
+		
+	.svc-cont{
+		
+		font-family:"Montserrat";
+		background-color:#000000;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.1);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+		padding-left:40px;
+		font-size:26px;
+		font-weight:600;
+		float:left;
+		margin:15px;
+	}
+	
+	.svc-link{
+		
+		text-decoration:none;
+	}
+	
+	.svc-link > .s-l-arrow{
+		text-decoration:none;
+		font-weight:600;
+		font-size:26px;
+		float:right;
+		height:auto;
+		margin: 15px;
+		
+		
+		background-color:#000000;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.2);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+		
+	}
+	
+	
+	
+	#wrapper{height:auto;}
+	
+	
+	.title{
+			height:auto;
+	grid-area:title;
+		grid-row: 1 / 1fr;
+		grid-column: 1 / 8;
+		
+	}
+	
+	.title > h1{
+		height:100px;
+		margin-bottom:0px;
+		background-color:#02B4EB;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;}
+	
+	.title{
+		font-size:28px;
+		font-family:"Montserrat";
+		color:white;
+		
+		vertical-align:bottom;
+	}
+	
+	.item1{
+		height:auto;
+		grid-area:desc; 
+		grid-row: 1 / 1fr;
+		grid-column: 1 / 8;
+		
+	}
+	
+	.item2{
+		height:auto;
+		grid-area:lipo; 
+		grid-row: 1 / 1fr;
+		grid-column: 1 / 8;
+		
+	}
+	
+	.item3{
+		height:auto;
+		
+		grid-area:fat;
+	grid-row: 2 / 1fr;
+	grid-column: 1 / 8;}
+	
+	.item4{height:auto;
+		grid-area:smart;
+		grid-row: 3 / 1fr;
+	grid-column: 1 / 8;}
+	
+	.item5{height:auto;
+
+		grid-area:cellulite;
+		grid-row: 4 / 1fr;
+	grid-column: 1 / 8;}
+	
+	.item6{
+	
+		
+	height:auto;
+		grid-area:skin;
+		grid-row: 5 / 1fr;
+	grid-column: 1 / 8;}
+	
+	.item7{height:auto;
+		grid-area:stretchm;
+		grid-row: 6 / 1fr;
+	grid-column: 1 / 8;}
+	
+	.item8{height:auto;
+		grid-area:aging;
+		grid-row: 7 / 1fr;
+	grid-column: 1 / 8;}
+	
+	.item9{height:auto;
+		grid-area:venus;
+		grid-row: 8 / 1fr;
+	grid-column: 1 / 8;}
+	
+	.item10{height:auto;
+		grid-area:consultation;
+		grid-row: 9 / 1fr;
+	grid-column: 1 / 8;}
+	
+	
+	.grid-container{
+		margin-top:60px;
+		display:grid;
+		
+		grid-template-columns: auto auto auto auto auto;
+		
+		grid-template-rows: auto auto auto  auto auto auto;
+		
+		grid-template-areas: 'title title title title title title'
+			'desc desc desc desc desc desc'
+			
+			'lipo lipo lipo lipo lipo lipo'
+			
+		'fat fat fat fat fat fat'
+			
+		'smart smart smart smart smart smart'
+			
+		'cellulite cellulite cellulite cellulite cellulite cellulite '
+			
+		'skin skin skin skin skin skin'
+			
+		'stretchm stretchm stretchm stretchm stretchm stretchm'
+			
+			'aging aging aging aging aging aging'
+			
+			'venus venus venus venus venus venus'
+			
+			'consultation consultation consultation consultation consultation consultation';
+		
+					
+		grid-gap: 10px;
+		
+		background-color:rgba(0,0,0,0.0);
+		
+		padding:10px;
+		
+		}
+	
+	
+	.grid-container > .item1 {
+		border-radius:10px;
+		box-shadow:0px 1px 2px 2px rgba(000,000,000,.2);
+		border:dotted 1px grey;
+		margin-bottom:10px;
+		background-color:white;
+	}
+	
+	.grid-container > .item2 {
+		border-radius:8px;
+		margin-top:-10px;
+		background-image: linear-gradient(0deg, black,10%,white, #A2A2A2, 27%, #E6038A);
+		margin-bottom:24px;
+		box-shadow:0px 0px .5px 1px rgba(000,000,000,.4), inset .5px .5px 3px 2px rgba(000,000,000,.6);
+		border:medium solid #E6038A;
+	}
+	
+	.grid-container > .item3 {
+		border-radius:8px;
+		width:auto;height:auto;
+		background-image: linear-gradient(0deg, black,10%,white, #A2A2A2, 27%, #70C91E);
+		margin-bottom:24px;
+		box-shadow:0px 0px .5px 1px rgba(000,000,000,.4), inset .5px .5px 3px 2px rgba(000,000,000,.6);
+		border:medium solid #70C91E;
+	}
+	
+	/*.item2 > .h-text{margin-top:240px;}*/
+	.item2 > .tour{width:100%;height:100%;border-radius:2px;}
+	
+	.grid-container > .item4 {
+		border-radius:8px;
+		width:auto;height:auto;
+		background-image: linear-gradient(0deg, black,10%,white, #A2A2A2, 27%, #AF0267);
+		margin-bottom:24px;
+		box-shadow:0px 0px .5px 1px rgba(000,000,000,.4), inset .5px .5px 3px 2px rgba(000,000,000,.6);
+		border:medium solid #af0267;
+	}
+	
+	
+	.grid-container > .item5 {
+		border-radius:8px;
+		border-radius:8px;
+		background-image: linear-gradient(0deg, black,10%,white, #A2A2A2, 27%, #0092D7);
+		margin-bottom:24px;
+		box-shadow:0px 0px .5px 1px rgba(000,000,000,.4), inset .5px .5px 3px 2px rgba(000,000,000,.6);
+		border:medium solid #0092D7;
+	}
+	
+	
+	.grid-container > .item6 {
+		border-radius:8px;
+		background-image: linear-gradient(0deg, black,10%,white, #A2A2A2, 27%, #F6BB13);
+		margin-bottom:24px;
+		box-shadow:1px 1px .5px 1px rgba(000,000,000,.4), inset .5px .5px 3px 2px rgba(000,000,000,.6);
+		border:medium solid #F6BB13;
+	}
+	
+
+	
+	.grid-container > .item7 {
+		border-radius:8px;
+		background-image: linear-gradient(0deg, black,10%,white, #A2A2A2, 27%, green);
+		margin-bottom:24px;
+		box-shadow:1px 1px .5px 1px rgba(000,000,000,.4), inset .5px .5px 3px 2px rgba(000,000,000,.6);
+		border:medium solid green;
+	}
+	
+	.grid-container > .item8 {
+		border-radius:8px;
+		background-image: linear-gradient(0deg, black,10%,white, #A2A2A2, 27%, #C11A1D);
+		margin-bottom:24px;
+		box-shadow:0px 0px .5px 1px rgba(000,000,000,.4), inset .5px .5px 3px 2px rgba(000,000,000,.6);
+		border:medium solid #C11A1D;
+	}
+	
+	.grid-container > .item9 {
+		border-radius:8px;
+		background-image: linear-gradient(0deg, black,10%,white, #A2A2A2, 27%, #A2A2A2);
+		box-shadow:0px 0px .5px 1px rgba(000,000,000,.4), inset .5px .5px 3px 2px rgba(000,000,000,.6);
+		border:medium solid #A2A2A2;
+	}
+	
+	.grid-container > .item10 {
+	width:auto;height:auto;margin-top:10px;border-radius:2px;padding:10px;box-shadow: 1px 1px 3px 1px black;border:rgba(230,3,138,0.50) thick solid;
+	}
+	
+	
+	
+	
+	
+	
+	/*[Insert .footer CSS here]*/
+	

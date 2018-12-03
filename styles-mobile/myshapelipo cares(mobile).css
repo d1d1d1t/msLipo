@@ -1,0 +1,191 @@
+
+	body{/*background-color:rgba(0,0,0,0.10);*/background-image:url("../images/15488-(edit).jpg");background-position:bottom;background-attachment:fixed;}
+	
+/*Insert .header CSS-HERE*/
+/*------------------------------------------------------------------*/
+/*|								=== |*/
+/*|								=== |*/
+/*|							        === |*/	
+/*-------------------------------------------------------------------*/
+
+	
+	.abt1{width:45%;grid-area:about;float:left;padding-right:10px;}
+	
+	.abt1-img{grid-area:about;width:100%;}
+	
+	.abt2{width:auto;grid-area:about;padding-right:5px;}
+	
+	.svc1{margin-top:20px;margin-bottom:20px;width:100%;grid-area:prf;float:left;padding-right:10px;}
+	
+	.svc-img{grid-area:prf;width:100%;}
+	
+	.svc2{width:auto;grid-area:prf;padding-right:5px;}
+	
+	.btn-text{text-decoration:none;font-family:"Montserrat";}
+	.btn-text>.consult-btn-graphic{
+		box-shadow: .5px .5px 2px .5px black;
+		border-radius:4px;
+		margin-bottom: 5px;
+		color:white;
+		text-decoration:none;
+		text-align:center;
+		
+		width: auto;
+		height:20px;
+		padding-top:2%;
+		padding-bottom:2%;
+		background-color:#E6038A;}
+		
+	.h-text{
+		width:100%;
+		font-size: 20px;
+		background-color: #000000;
+  color: rgba(0,0,0,.20);
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+		margin:0px;
+	font-family:"Montserrat";
+}
+	.desc-cont{
+		font-size:auto;
+		font-family:"Montserrat";
+	}
+	#wrapper{height:auto;}
+	
+	
+	.title{
+		height:auto;
+		grid-area:title;
+		grid-row:1/1fr;
+		grid-column:1/8;
+		
+		}
+	.title > h1{
+	
+		height:auto;
+		margin-bottom:0px;
+		background-color:#0092D7;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;}
+	
+	 .h-tag{
+		
+		text-align:left;
+		font-size:16px;
+		 font-weight:300;
+		 font-family:"Montserrat";
+		
+	}
+	
+	.title{
+		font-size:26px;
+		font-family:"Montserrat";
+		color:white;
+		
+		vertical-align:bottom;
+	}
+	
+	.item1{
+		height:auto;
+		grid-area:intro; 
+		grid-row: 1 / 1fr;
+		grid-column: 1 / 9;
+		
+	}
+	
+	.item2{height:auto;
+		
+		grid-area:haiti1;
+	grid-row: 2 / 1fr;
+	grid-column: 1 / 9;}
+	
+	.item3{height:auto;
+		
+		grid-area:haiti2;
+	grid-row: 3 / 1fr;
+	grid-column: 1 / 9;}
+	
+	.item4{height:auto;
+		grid-area:haiti3;
+		grid-row: 4 / 1fr;
+	grid-column: 1 / 9;}
+	
+	
+	
+	.item5{
+	
+		
+		height:auto;
+		grid-area:consultation;
+		grid-row: 5 / 1fr;
+	grid-column: 1 / 9;}
+	
+	
+	.grid-container{
+		margin-top:60px;
+		display:grid;
+		
+		grid-template-columns: auto auto auto auto auto auto;
+		
+		grid-template-rows: auto auto auto  auto auto auto;
+		
+		grid-template-areas: 
+			'title title title title title title'
+			'intro intro intro intro intro intro'
+			'haiti1 haiti1 haiti1 haiti1 haiti1 haiti1'
+			'haiti2 haiti2 haiti2 haiti2 haiti2 haiti2'
+					
+			'haiti3 haiti3 haiti3 haiti3 haiti3 haiti3'
+			
+								
+			'consultation consultation consultation consultation consultation consultation';
+		
+					
+		grid-gap: 10px;
+		
+		background-color:rgba(0,0,0,0.0);
+		
+		padding:20px;
+		
+		}
+	
+	.grid-container > .item1 {
+		margin-top:20px;
+	}
+	
+	.grid-container > .item2 {
+		width:auto;height:auto;
+	}
+	
+	/*.item2 > .h-text{margin-top:240px;}*/
+	/*.item2 > .tour{width:100%;height:100%;border-radius:2px;}*/
+	
+	.grid-container > .item3 {
+		width:auto;height:auto;margin-top:20px;
+	}
+	
+	.item3 > img{width:100%;height:auto;}
+	
+	.grid-container > .item4 {
+	
+	}
+	
+	
+	
+	
+	.grid-container > .item5{
+		width:auto;height:auto;margin-top:20px;border-radius:2px;padding:10px;box-shadow: 1px 1px 3px 1px black;border:rgba(230,3,138,0.50) thick solid;
+	}
+	
+	
+	
+	
+	
+	
+	/*[Insert .footer here]*/
+	

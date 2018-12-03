@@ -1,0 +1,92 @@
+<style>
+
+/*header*/	
+	.nav-selector{display:grid;
+	grid-template-columns:90% 10%;
+		
+	}
+	
+	.nav-option{font-family:"Montserrat";color:grey;height:auto;width:100%;text-align:left;padding-bottom:5px;text-decoration:none;padding-left:5px;padding-top:8px;
+	grid-column:1;
+		grid-row:1;
+	}
+	
+	 .nav-selector :hover {color:#02B4EB;}
+	 .nav-selector :hover(:not){color:grey;}
+		
+	.svc{padding-left:5px;height:0px;}
+	 .svc > ul{list-style-type: none;display:none;}
+	.svc > ul :hover{color:#E6038A}
+	.svc > ul :not(:hover){color:#A2A2A2}
+	
+	.prc{padding-left:5px;height:0px;}
+	 .prc > ul{list-style-type: none;display:none;}
+	.prc > ul :hover{color:#E6038A}
+	.svc > ul :not(:hover){color:#A2A2A2}
+	
+	.why{padding-left:5px;height:0px;}
+	 .why > ul{list-style-type: none;display:none;}
+	.why > ul :hover{color:#E6038A}
+	.why > ul :not(:hover){color:#A2A2A2}
+	
+	.ctc{padding-left:5px;display:none;}
+	 .addr > ul{list-style-type: none;display:none;}
+	.ct{padding-left:5px;display:none;}
+	
+	
+	
+	
+	li > a{color:#a2a2a2;text-decoration: none;font-family:"Montserrat";font-size:auto;font-weight:300;}
+	li > a:hover{color:#E6038A;}
+	li > a:hover(:not){color:#A2A2A2;}
+	
+	
+	.drop-icon{grid-column:2;grid-row:1;float:right;margin-top:10px;}
+	
+	
+	.m-expander{padding-right:22px;padding-top:10px;float:right;}
+	
+	.dropdown-cont{display:none;font-size:20px;height:auto;width:100%;float:right;background-color:white;padding-right:3px;}
+	
+	
+	.header{width:100%;height:auto;position:fixed;background-color:rgba(255,255,255,1.00);top:0px;padding:3px;left:1px;z-index:5;box-shadow:1px 1px 1px 2px rgba(000,000,000,.5);}
+	.header > .logo {float:left;height:65px; width:300px;}
+	
+	.addr{list-style-type:none;font-family:"Montserrat";color:grey;text-align:center;}	
+	.addr > .addr-cont{background-color:grey;height:auto;padding:1px;color:white;}
+	.addr > .addr-cont:first-child{font-size:24px;background-color:white;color:black;font-weight:700;border-bottom: thin solid black;}
+	.addr > .addr-cont:nth-child(even){font-size:18px;background-color:white;color:grey;}
+	.addr-cont > img{height:auto;width:100%;}
+	
+	.addr > .addr-cont:nth-child(3){font-size:18px;background-color:grey;color:white;}
+	.addr-link1{color:white;}
+	.addr-link2{color:grey;}
+	.addr-link3{color:white;}
+	
+	.addr > .goog-cont > .addr-link3{color:white;}
+	.addr > .goog-cont:hover{background-color:transparent;}
+	.addr > .goog-cont:not(:hover){background-color:#02B4EB;}
+		
+	.ct-form{list-style-type:none;}
+	.ct-form > li{font-family:"Montserrat";font-size:20px;border-bottom:thin solid black;}
+	.ct-form > li:hover{color:white;background-color:black;}
+	.ct-form > li:not(:hover){color:black;background-color:white;}
+	
+	textarea {display:block;border:none;width:100%;height:auto;resize:none;font-family:"Montserrat";font-weight:300;outline:none;}
+	textarea :focus{background-color:#E6038A;color:white;font-size:20px;outline:none;}
+	input[type=text]{font-family:"Montserrat";font-size:18px;color:#E6038A;border:none;}
+	
+	input[name=fname]{float:right;}
+	input[name=lname]{float:right;}
+	input[name=email]{float:right;}
+	
+	input[name=areacode]{width:2.2em;text-align:center;color:#0092d7;}
+	input[name=firstthree]{width:2.2em;text-align:center;color:#0092d7;}
+	input[name=lastfour]{width:2.7em;text-align:center;color:#0092d7;}
+	select{font-family:"Montserrat";font-size:18px;color:#0092D7;border:none;float:right;outline:none;}
+	
+	input[type=text]:focus{background-color:#E6038A;color:white;}
+	input[type=submit]{font-size:18px;font-family:"Montserrat";color:white;background-color:#E6038A;border:none;padding:10px;margin-left:40%;outline:none;}
+	/*end-header*/
+
+</style>
