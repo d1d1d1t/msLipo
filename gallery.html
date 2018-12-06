@@ -1,0 +1,2765 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name ="viewport"
+		  content="width=device-width,initial-scale=1.0">
+	
+<title>Gallery</title>
+	
+	
+
+
+	<script type="text/javascript" src="../scripts/jquery.(3.3.1).min.js"></script>
+
+	<!--<link rel="stylesheet" type="text/css" href="../styles(mobile)/gallery(mobile).css">-->
+	<link rel="stylesheet" type="text/css" href="../styles(mobile)/header-structure(mobile).css">
+	<link rel="stylesheet" type="text/css" href="../styles(mobile)/footer-structure(mobile).css">
+	
+	<script type="text/javascript" src="../scripts/jquery.cycle.all.js"></script>
+	
+	
+	<style>
+		
+	body{/*background-color:rgba(0,0,0,0.10);*/background-image:url("../images/15488-(edit).jpg");background-position:bottom;background-attachment:fixed;}
+		
+	
+
+	
+	.abt1{width:45%;grid-area:about;float:left;padding-right:10px;}
+	
+	.abt1-img{grid-area:about;width:100%;}
+	
+	.abt2{width:auto;grid-area:about;padding-right:5px;}
+	
+	.svc1{margin-top:20px;margin-bottom:20px;width:100%;grid-area:prf;float:left;padding-right:10px;}
+	
+	.svc-img{grid-area:prf;width:100%;}
+	
+	.svc2{width:auto;grid-area:prf;padding-right:5px;}
+	
+	.btn-text{text-decoration:none;font-family:"Montserrat";}
+	.btn-text>.consult-btn-graphic{
+		box-shadow: .5px .5px 2px .5px black;
+		border-radius:4px;
+		margin-bottom: 5px;
+		color:white;
+		text-decoration:none;
+		text-align:center;
+		margin-left:40%;
+		width: 20%;
+		height:auto;
+		padding-top:1%;
+		padding-bottom:1%;
+		background-color:#E6038A;}
+		
+	.h-text{
+		width:100%;
+		font-size: 20px;
+		background-color: #000000;
+  color: rgba(0,0,0,.20);
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+		margin:0px;
+	font-family:"Montserrat";
+}
+	.desc-cont{
+		font-size:15px;
+		font-weight:300;
+		font-family:"Montserrat";
+		color:rgba(000,000,000,.5);
+	}
+	#wrapper{height:auto;}
+	
+	.desc-cont > a{text-decoration:none; color:#E6038A;font-weight:300px;}
+	
+	.title{
+		height:auto;
+		grid-area:title;
+		grid-row:1/1;
+		grid-column:1/9;
+		
+		}
+	.title > h1{
+	
+		height:auto;
+		margin-bottom:0px;
+		background-color:#0092D7;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;}
+	
+	 .h-tag{
+		
+		text-align:left;
+		font-size:20px;
+		 font-family:"Montserrat";
+		 font-weight:300;
+	}
+	
+	.title{
+		font-size:26px;
+		font-family:"Montserrat";
+		color:white;
+		
+		vertical-align:bottom;
+	}
+	
+	
+	
+
+		
+	
+	.item1{height:auto;
+		
+			grid-area:cat;
+			grid-row: 2/ 2;
+			grid-column: 1 / 9;}
+	
+		.item1 > .r1c1:hover{background-image:url("../images/gal-breast[col].jpg");}
+		.item1 > .r1c2:hover{background-image:url("../images/gal-butt[col].jpg");}
+		.item1 > .r1c3:hover{background-image:url("../images/gal-abs[col].jpg");}
+		.item1 > .r1c4:hover{background-image:url("../images/gal-arms[col].jpg");}
+		
+		.item1 > .r2c1:hover{background-image:url("../images/gal-chin[col].jpg");}
+		.item1 > .r2c2:hover{background-image:url("../images/gal-lgvol[col].jpg");}
+		.item1 > .r2c3:hover{background-image:url("../images/gal-lower[col].jpg");}
+		.item1 > .r2c4:hover{background-image:url("../images/gal-mchest[col].jpg");}
+		
+		
+		
+		
+		
+	.item1 > .r1c1{
+			grid-area:row1c1;
+			grid-row: 1 / 1;
+			grid-column: 1 / 1;
+			background-image:url("../images/gal-breast[bw].jpg");
+			background-size:100%;
+		}
+	
+		
+	
+	
+	.item1 > .r1c2{
+			grid-area:row1c2;
+			grid-row: 1 / 1;
+			grid-column: 2 / 2;
+			background-image:url("../images/gal-butt[bw].jpg");
+			background-size:100%;
+		}
+	
+		
+	
+	
+	.item1 > .r1c3{
+			grid-area:row1c3;
+			grid-row: 1 / 1;
+			grid-column: 3 / 3;
+			background-image:url("../images/gal-abs[bw].jpg");
+			background-size:100%;		
+		}
+	
+		
+	
+	
+	.item1 > .r1c4{
+			grid-area:row1c4;
+			grid-row: 1 / 1;
+			grid-column: 4 / 4;
+			background-image:url("../images/gal-arms[bw].jpg");
+			background-size:100%;	
+		}
+	
+		
+	
+	
+	
+	.item1 > .r2c1{
+			grid-area:row2c1;
+			grid-row: 2 / 2;
+			grid-column: 1 / 1;
+			background-image:url("../images/gal-chin[bw].jpg");
+			background-size:100%;	
+		}
+	
+		
+	
+	
+	.item1 > .r2c2{
+			grid-area:row2c2;
+			grid-row: 2 / 2;
+			grid-column: 2 / 2;
+			background-image:url("../images/gal-lgvol[bw].jpg");
+			background-size:100%;	
+		}
+	
+		
+	
+	
+	.item1 > .r2c3{
+			grid-area:row2c3;
+			grid-row: 2 / 2;
+			grid-column: 3 / 3;
+			background-image:url("../images/gal-lower[bw].jpg");
+			background-size:100%;	
+		}
+	
+		
+	
+	
+	.item1 > .r2c4{
+			grid-area:row2c4;
+			grid-row: 2 / 2;
+			grid-column: 4 / 4;
+			background-image:url("../images/gal-mchest[bw].jpg");
+			background-size:100%;	
+		}
+	
+		
+	
+	
+	.item2{
+		height:auto;
+		grid-area:imggrid;
+		grid-row: 3 / 3;
+		grid-column: 2 / 9;
+	}
+	
+	.grid > .h-text{
+		height:auto;
+		grid-area:cath;
+		grid-row: 1 / 1;
+		grid-column: 1 / 4;
+		font-size: 40px;
+}
+	
+	.grid > .img1x1-btn{
+		height:auto;
+		grid-area:img1x1-btn;
+		grid-row: 2 / 2;
+		grid-column: 1 / 1;
+	}
+	
+	.grid > .img1x2-btn{
+		height:auto;
+		grid-area:img1x2-btn;
+		grid-row: 2 / 2;
+		grid-column: 2 / 2;}
+	
+	.grid > .img1x3-btn{
+		height:auto;
+		grid-area:img1x3-btn;
+		grid-row: 2 / 2;
+		grid-column: 3 / 3;}
+	
+	.grid > .img1x4-btn{
+		height:auto;
+		grid-area:img1x4-btn;
+		grid-row: 2 / 2;
+		grid-column: 4 / 4;
+	}
+	
+	
+	.grid > .img2x1-btn{
+		height:auto;
+		grid-area:img2x1-btn;
+		grid-row: 3 / 3;
+		grid-column: 1 / 1;
+	}
+	
+	.grid > .img2x2-btn{
+		height:auto;
+		grid-area:img2x2-btn;
+		grid-row: 3 / 3;
+		grid-column: 2 / 2;
+	}
+	
+	.grid > .img2x3-btn{
+		height:auto;
+		grid-area:img2x3-btn;
+		grid-row: 3 / 3;
+		grid-column: 3 / 3;
+	}
+	
+	.grid > .img2x4-btn{
+		height:auto;
+		grid-area:img2x4-btn;
+		grid-row: 3 / 3;
+		grid-column: 4 / 4;
+	}
+	
+	
+	.grid > .img3x1-btn{
+		height:auto;
+		grid-area:img3x1-btn;
+		grid-row: 4 / 4;
+		grid-column: 1 / 1;
+	}
+	
+	.grid > .img3x2-btn{
+		height:auto;
+		grid-area:img3x2-btn;
+		grid-row: 4 / 4;
+		grid-column: 2 / 2;
+	}
+	
+	.grid > .img3x3-btn{
+		height:auto;
+		grid-area:img3x3-btn;
+		grid-row: 4 / 4;
+		grid-column: 3 / 3;
+	}
+	
+	.grid > .img3x4-btn{
+		height:auto;
+		grid-area:img3x4-btn;
+		grid-row: 4 / 4;
+		grid-column: 4 / 4;
+	}
+	
+	
+	.grid > .img4x1-btn{
+		height:auto;
+		grid-area:img4x1-btn;
+		grid-row: 5 / 5;
+		grid-column: 1 / 1;
+	}
+	
+	.grid > .img4x2-btn{
+		height:auto;
+		grid-area:img4x2-btn;
+		grid-row: 5 / 5;
+		grid-column: 2 / 2;
+	}
+	
+	.grid > .img4x3-btn{
+		height:auto;
+		grid-area:img4x3-btn;
+		grid-row: 5 / 5;
+		grid-column: 3 / 3;
+	}
+	
+	.grid > .img4x4-btn{
+		height:auto;
+		grid-area:img4x4-btn;
+		grid-row: 5 / 5;
+		grid-column: 4 / 4;
+	}
+	
+	
+	.item3{
+	
+		
+		height:auto;
+		grid-area:consultation;
+		grid-row: 4 / 4;
+	grid-column: 1 / 9;}
+	
+	
+	.grid-container{
+		margin-top:60px;
+		margin:-8.2px;
+		display:grid;
+		
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		
+		grid-template-rows: auto auto auto  auto;
+		
+		grid-template-areas: 
+			'title title title title title title'
+			
+			'cat cat cat cat cat cat'
+			'imggrid imggrid imggrid imggrid imggrid imggrid'
+					
+						
+			'consultation consultation consultation consultation consultation consultation';
+		
+					
+		grid-gap: 20px;
+		
+		background-color:rgba(0,0,0,0.0);
+		
+		padding:20px;
+		
+		}
+	
+	.grid-container > .item1 {
+		margin-top:20px;
+		width:60%;
+		height:400px;
+		margin-left:20%;
+		
+		
+		display:grid;
+		
+		grid-template-columns: 1fr 1fr 1fr 1fr ;
+		
+		grid-template-rows: auto auto ;
+		
+		grid-template-areas: 
+			
+		
+			'row1c1 row1c2 row1c3 row1c4'
+			
+			'row2c1 row2c2 row2c3 row2c4';
+		
+					
+		grid-gap: 20px;
+		
+		background-color:rgba(0,0,0,0.0);
+		
+		padding:2px;
+			
+	
+		
+	}
+	.item1 > a{display:flex;flex-direction:column;justify-content: center;align-items: center; width:auto;border-radius:5px;padding:10px;box-shadow: 0px 0px 2px 2px rgba(000,000,000,.5);text-decoration:none;color:white;font-family:"Montserrat";}
+	
+	.item1 > a :hover{color:#E6038A;}
+	
+	.item1 > a > img{width:100%;}
+	.item1 > a > .cat-label{height:auto;width:auto;text-align:center;background-color:black;}
+		
+		
+		
+	 .item2 > .grid {
+		margin-top:20px;
+	
+		
+		display:grid;
+		
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		
+		grid-template-rows: auto auto auto auto;
+		
+		grid-template-areas: 
+			'cath cath cath cath'
+			'img1x1-btn img1x2-btn img1x3-btn img1x4-btn'
+			'img2x1-btn img2x2-btn img2x3-btn img2x4-btn'
+			'img3x1-btn img3x2-btn img3x3-btn img3x4-btn'
+			'img4x1-btn img4x2-btn img4x3-btn img4x4-btn';
+		
+					
+		grid-gap: 7px;
+		
+		background-color:rgba(0,0,0,0.0);
+		
+		padding:2px;
+		margin-left: -15px;
+		margin-right: -15px;	
+		
+	}
+	
+	.grid > a > img{width:100%;}
+	
+	
+	
+	.grid-container > .item3{
+		width:auto;height:auto;margin-top:20px;margin:-1%;padding:10px;box-shadow: 1px 1px 3px 1px black;background-color:rgba(0,146,215,0.50);
+	}
+	
+	.item3 > h1{text-align:center;}
+		.item3 > p{text-align:center;}
+	
+	
+	
+	/*light-box*/
+	#ltb-wrap{display:none; flex-direction: column;flex-direction: row; align-content: center;align-items:center;justify-content: center; top:-5%;position:fixed;width:auto;height:auto;background-color:rgba(000,000,000,.5);margin:-7px;padding-top:5%;padding-bottom:20px;}
+		
+	#ltb{height:90%;width:50%;background-color:#000000;border-radius:2px;box-shadow:1px 1px 10px .5px rgba(000,000,000,.3);margin-left:-7px;margin-bottom:90%;}
+		
+		.ltb-img{width:100%;height:auto;}
+		
+	.img-desc{font-family:"Montserrat";color:grey;float:left; padding:2%;}
+		
+	.img-right{
+		position:fixed;
+		left:72%;
+		height:auto;
+		width:auto;
+		font-size:72px;
+		top: 35%;
+		color: #A2A2A2;
+		text-decoration:none;
+		z-index:5;
+		}
+		
+	.img-left{
+		position:fixed;
+		right:72%;
+		height:auto;
+		width:auto;
+		font-size:72px;
+		top: 35%;
+		color: #A2A2A2;
+		text-decoration:none;
+		
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+		z-index:5;
+		}
+		
+	.x-btn{font-family:"Montserrat";color:grey;float:right;text-decoration:none;text-shadow:.5px .5px 1px  rgba(000,000,000,.3);padding:3%;}
+	/*light-box-end*/
+		.x-btn:hover{color:#c11a1d;}
+	
+	/*[Insert .footer here]*/
+	
+
+	</style>
+	
+</head>
+
+<body>
+	
+	
+<!-- replace header element with:-->
+
+	<div id="wrapper">
+	<div class= "grid-container">
+		
+			
+		<div class="title">
+			<h1>Gallery</h1>
+			<!--<h1 class="h-tag">Excellence. Affordability. Honesty. Support. Value</h1>-->
+		</div>
+		
+	
+		<div class= "item1">
+			<a class="r1c1" href="#">
+			<div class="cat-label">Fat Transfer (Breasts)</div>
+				<script type="text/javascript">
+					$('.r1c1').click(function(){
+						$('.r1c1').css('color','#E6038A');
+						$('#ft-br').css('display','grid');
+						$('#ft-br').addClass('grid');
+						
+						$('.r1c2, .r1c3, .r1c4, .r2c1, .r2c2, .r2c3, .r2c4').css('color','#A2A2A2');
+						
+						 $('#ft-bt').css('display','none');
+						 $('#abs').css('display','none');
+						 $('#arms').css('display','none');
+						 $('#chin').css('display','none');
+						 $('#lgvol').css('display','none');
+						 $('#lbody').css('display','none');
+						 $('#mchest').css('display','none');
+						
+						 $('#ft-bt').removeClass('grid');
+						 $('#abs').removeClass('grid');
+						 $('#arms').removeClass('grid');
+						 $('#chin').removeClass('grid');
+						 $('#lgvol').removeClass('grid');
+						 $('#lbody').removeClass('grid');
+						 $('#mchest').removeClass('grid');
+						
+							$('#ft-br .h-text').text('Fat Transfer (Breasts)');
+						
+						
+						
+						
+						
+					});
+				</script>
+				
+			</a>
+			
+			<a class="r1c2" href="#">
+			<div class="cat-label">Fat Transfer (Butt)</div>
+				<script type="text/javascript">
+					$('.r1c2').click(function(){
+						$('.r1c2').css('color','#E6038A');
+						$('#ft-bt').css('display','grid');
+						$('#ft-bt').addClass('grid');
+						
+						$('.r1c1, .r1c3, .r1c4, .r2c1, .r2c2, .r2c3, .r2c4').css('color','#A2A2A2');
+						
+						 $('#ft-br').css('display','none');
+						 $('#abs').css('display','none');
+						 $('#arms').css('display','none');
+						 $('#chin').css('display','none');
+						 $('#lgvol').css('display','none');
+						 $('#lbody').css('display','none');
+						 $('#mchest').css('display','none');
+						
+						 $('#ft-br').removeClass('grid');
+						 $('#abs').removeClass('grid');
+						 $('#arms').removeClass('grid');
+						 $('#chin').removeClass('grid');
+						 $('#lgvol').removeClass('grid');
+						 $('#lbody').removeClass('grid');
+						 $('#mchest').removeClass('grid');
+						
+						$('#ft-bt .h-text').text('Fat Transfer (Butt)');
+						
+						
+					});
+				</script>
+			</a>
+			
+			<a class="r1c3" href="#">
+			<div class="cat-label">Abs</div>
+				<script type="text/javascript">
+					$('.r1c3').click(function(){
+						$('.r1c3').css('color','#E6038A');
+						$('#abs').css('display','grid');
+						$('#abs').addClass('grid');
+						
+						$('.r1c1, .r1c2, .r1c4, .r2c1, .r2c2, .r2c3, .r2c4').css('color','#A2A2A2');
+						
+						 $('#ft-br').css('display','none');
+						 $('#ft-bt').css('display','none');
+						 $('#arms').css('display','none');
+						 $('#chin').css('display','none');
+						 $('#lgvol').css('display','none');
+						 $('#lbody').css('display','none');
+						 $('#mchest').css('display','none');
+						
+						 $('#ft-br').removeClass('grid');
+						 $('#ft-br').removeClass('grid');
+						 $('#arms').removeClass('grid');
+						 $('#chin').removeClass('grid');
+						 $('#lgvol').removeClass('grid');
+						 $('#lbody').removeClass('grid');
+						 $('#mchest').removeClass('grid');
+						
+						$('#abs .h-text').text('Abdomen');
+						
+						
+					});
+				</script>
+			
+			</a>
+			
+			<a class="r1c4" href="#">
+			<div class="cat-label">Arms</div>
+				<script type="text/javascript">
+					$('.r1c4').click(function(){
+						$('.r1c4').css('color','#E6038A');
+						$('#arms').css('display','grid');
+						$('#arms').addClass('grid');
+						
+						$('.r1c1, .r1c2, .r1c3, .r2c1, .r2c2, .r2c3, .r2c4').css('color','#A2A2A2');
+						
+						 $('#ft-br').css('display','none');
+						 $('#ft-bt').css('display','none');
+						 $('#abs').css('display','none');
+						 $('#chin').css('display','none');
+						 $('#lgvol').css('display','none');
+						 $('#lbody').css('display','none');
+						 $('#mchest').css('display','none');
+						
+						 $('#ft-br').removeClass('grid');
+						 $('#ft-br').removeClass('grid');
+						 $('#abs').removeClass('grid');
+						 $('#chin').removeClass('grid');
+						 $('#lgvol').removeClass('grid');
+						 $('#lbody').removeClass('grid');
+						 $('#mchest').removeClass('grid');
+						
+						$('#arms .h-text').text('Arms');
+						
+						
+					});
+				</script>
+			</a>
+			
+			<a class="r2c1" href="#">
+			<div class="cat-label">Chin</div>
+					<script type="text/javascript">
+					$('.r2c1').click(function(){
+						$('.r2c1').css('color','#E6038A');
+						$('#chin').css('display','grid');
+						$('#chin').addClass('grid');
+						
+						$('.r1c1, .r1c2, .r1c3, .r1c4, .r2c2, .r2c3, .r2c4').css('color','#A2A2A2');
+						
+						 $('#ft-br').css('display','none');
+						 $('#ft-bt').css('display','none');
+						 $('#abs').css('display','none');
+						 $('#arms').css('display','none');
+						 $('#lgvol').css('display','none');
+						 $('#lbody').css('display','none');
+						 $('#mchest').css('display','none');
+						
+						 $('#ft-br').removeClass('grid');
+						 $('#ft-br').removeClass('grid');
+						 $('#abs').removeClass('grid');
+						 $('#arms').removeClass('grid');
+						 $('#lgvol').removeClass('grid');
+						 $('#lbody').removeClass('grid');
+						 $('#mchest').removeClass('grid');
+						
+						$('#chin .h-text').text('Chin');
+						
+						
+					});
+				</script>
+			</a>
+			
+			<a class="r2c2" href="#">
+			<div class="cat-label">Large Volume</div>
+				<script type="text/javascript">
+					$('.r2c2').click(function(){
+						$('.r2c2').css('color','#E6038A');
+						$('#lgvol').css('display','grid');
+						$('#lgvol').addClass('grid');
+						
+						$('.r1c1, .r1c2, .r1c3, .r1c4, .r2c1, .r2c3, .r2c4').css('color','#A2A2A2');
+						
+						 $('#ft-br').css('display','none');
+						 $('#ft-bt').css('display','none');
+						 $('#abs').css('display','none');
+						 $('#arms').css('display','none');
+						 $('#chin').css('display','none');
+						 $('#lbody').css('display','none');
+						 $('#mchest').css('display','none');
+						
+						 $('#ft-br').removeClass('grid');
+						 $('#ft-br').removeClass('grid');
+						 $('#abs').removeClass('grid');
+						 $('#arms').removeClass('grid');
+						 $('#chin').removeClass('grid');
+						 $('#lbody').removeClass('grid');
+						 $('#mchest').removeClass('grid');
+						
+						$('#lgvol .h-text').text('Large Volume');
+						
+						
+					});
+				</script>
+			</a>
+			
+			<a class="r2c3" href="#">
+			<div class="cat-label">Lower Body</div>
+				<script type="text/javascript">
+					$('.r2c3').click(function(){
+						$('.r2c3').css('color','#E6038A');
+						$('#lbody').css('display','grid');
+						$('#lbody').addClass('grid');
+						
+						$('.r1c1, .r1c2, .r1c3, .r1c4, .r2c1, .r2c2, .r2c4').css('color','#A2A2A2');
+						
+						 $('#ft-br').css('display','none');
+						 $('#ft-bt').css('display','none');
+						 $('#abs').css('display','none');
+						 $('#arms').css('display','none');
+						 $('#chin').css('display','none');
+						 $('#lgvol').css('display','none');
+						 $('#mchest').css('display','none');
+						
+						 $('#ft-br').removeClass('grid');
+						 $('#ft-br').removeClass('grid');
+						 $('#abs').removeClass('grid');
+						 $('#arms').removeClass('grid');
+						 $('#chin').removeClass('grid');
+						 $('#lgvol').removeClass('grid');
+						 $('#mchest').removeClass('grid');
+						
+						$('#lbody .h-text').text('Lower Body');
+						
+						
+					});
+				</script>
+			</a>
+			
+			<a class="r2c4" href="#">
+			<div class="cat-label">Male Chest</div>
+				<script type="text/javascript">
+					$('.r2c4').click(function(){
+						$('.r2c4').css('color','#E6038A');
+						$('#mchest').css('display','grid');
+						$('#mchest').addClass('grid');
+						
+						$('.r1c1, .r1c2, .r1c3, .r1c4, .r2c1, .r2c2, .r2c3').css('color','#A2A2A2');
+						
+						 $('#ft-br').css('display','none');
+						 $('#ft-bt').css('display','none');
+						 $('#abs').css('display','none');
+						 $('#arms').css('display','none');
+						 $('#chin').css('display','none');
+						 $('#lgvol').css('display','none');
+						 $('#lbody').css('display','none');
+						
+						 $('#ft-br').removeClass('grid');
+						 $('#ft-br').removeClass('grid');
+						 $('#abs').removeClass('grid');
+						 $('#arms').removeClass('grid');
+						 $('#chin').removeClass('grid');
+						 $('#lgvol').removeClass('grid');
+						 $('#lbody').removeClass('grid');
+						
+						$('#mchest .h-text').text('Male Chest');
+						
+						
+					});
+				</script>
+			</a>
+			
+		</div>
+		
+		
+		
+	<div class= "item2">
+		
+		
+		<div id="ft-br" style="display:none;">
+			<h1 class="h-text">Images-Grid</h1>
+			<a href="#" class="img1x1-btn"><img class="img1x1" src="../images/beautiful-1274056_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x1-btn').click(function(){
+					
+					var src = $('.img1x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('1 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x2-btn"><img class="img1x2" src="../images/beautiful-1844729_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x2-btn').click(function(){
+					
+					var src = $('.img1x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('2 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x3-btn"><img class="img1x3" src="../images/fashion-1063100_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x3-btn').click(function(){
+					
+					var src = $('.img1x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('3 of 16');
+				});
+			</script>		
+			</a>
+			
+			<a href="#" class="img1x4-btn"><img class="img1x4" src="../images/girl-1733352_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x4-btn').click(function(){
+					
+					var src = $('.img1x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('4 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img2x1-btn"><img class="img2x1" src="../images/dress-864107_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x1-btn').click(function(){
+				
+					var src = $('.img2x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('5 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x2-btn"><img class="img2x2" src="../images/model-1246488_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x2-btn').click(function(){
+				
+					var src = $('.img2x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('6 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x3-btn"><img class="img2x3" src="../images/model-1963257_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x3-btn').click(function(){
+				
+					var src = $('.img2x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('7 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x4-btn"><img class="img2x4" src="../images/waters-3225725_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x4-btn').click(function(){
+					
+					var src = $('.img2x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('8 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img3x1-btn"><img class="img3x1" src="../images/model-2303361_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x1-btn').click(function(){
+					
+					var src = $('.img3x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('9 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x2-btn"><img class="img3x2" src="../images/people-2567915_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x2-btn').click(function(){
+					
+					var src = $('.img3x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('10 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x3-btn"><img class="img3x3" src="../images/woman-1320810_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x3-btn').click(function(){
+					
+					var src = $('.img3x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('11 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x4-btn"><img class="img3x4" src="../images/woman-1245926_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x4-btn').click(function(){
+					
+					var src = $('.img3x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('12 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img4x1-btn"><img class="img4x1" src="../images/pink-hair-1450045_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x1-btn').click(function(){
+					
+					var src = $('.img4x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('13 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x2-btn"><img class="img4x2" src="../images/people-2592247_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x2-btn').click(function(){
+					
+					var src = $('.img4x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('14 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x3-btn"><img class="img4x3" src="../images/young-girl-531252_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x3-btn').click(function(){
+					
+					var src = $('.img4x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('15 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x4-btn"><img class="img4x4" src="../images/woman-1822459_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x4-btn').click(function(){
+					
+					var src = $('.img4x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('16 of 16');
+				});
+			</script>
+			</a>
+		
+			
+		
+		
+		</div>	
+		
+		<div id="ft-bt" style="display:none;">
+			<h1 class="h-text">Images-Grid</h1>
+			<a href="#" class="img1x1-btn"><img class="img1x1" src="../images/beautiful-1274056_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x1-btn').click(function(){
+					
+					var src = $('.img1x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('1 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x2-btn"><img class="img1x2" src="../images/beautiful-1844729_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x2-btn').click(function(){
+					
+					var src = $('.img1x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('2 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x3-btn"><img class="img1x3" src="../images/fashion-1063100_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x3-btn').click(function(){
+					
+					var src = $('.img1x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('3 of 16');
+				});
+			</script>		
+			</a>
+			
+			<a href="#" class="img1x4-btn"><img class="img1x4" src="../images/girl-1733352_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x4-btn').click(function(){
+					
+					var src = $('.img1x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('4 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img2x1-btn"><img class="img2x1" src="../images/dress-864107_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x1-btn').click(function(){
+				
+					var src = $('.img2x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('5 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x2-btn"><img class="img2x2" src="../images/model-1246488_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x2-btn').click(function(){
+				
+					var src = $('.img2x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('6 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x3-btn"><img class="img2x3" src="../images/model-1963257_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x3-btn').click(function(){
+				
+					var src = $('.img2x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('7 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x4-btn"><img class="img2x4" src="../images/waters-3225725_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x4-btn').click(function(){
+					
+					var src = $('.img2x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('8 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img3x1-btn"><img class="img3x1" src="../images/model-2303361_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x1-btn').click(function(){
+					
+					var src = $('.img3x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('9 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x2-btn"><img class="img3x2" src="../images/people-2567915_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x2-btn').click(function(){
+					
+					var src = $('.img3x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('10 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x3-btn"><img class="img3x3" src="../images/woman-1320810_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x3-btn').click(function(){
+					
+					var src = $('.img3x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('11 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x4-btn"><img class="img3x4" src="../images/woman-1245926_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x4-btn').click(function(){
+					
+					var src = $('.img3x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('12 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img4x1-btn"><img class="img4x1" src="../images/pink-hair-1450045_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x1-btn').click(function(){
+					
+					var src = $('.img4x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('13 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x2-btn"><img class="img4x2" src="../images/people-2592247_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x2-btn').click(function(){
+					
+					var src = $('.img4x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('14 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x3-btn"><img class="img4x3" src="../images/young-girl-531252_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x3-btn').click(function(){
+					
+					var src = $('.img4x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('15 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x4-btn"><img class="img4x4" src="../images/woman-1822459_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x4-btn').click(function(){
+					
+					var src = $('.img4x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('16 of 16');
+				});
+			</script>
+			</a>
+		
+			
+		
+		
+		</div>
+		
+		<div id="abs" style="display:none;">
+			<h1 class="h-text">Images-Grid</h1>
+			<a href="#" class="img1x1-btn"><img class="img1x1" src="../images/beautiful-1274056_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x1-btn').click(function(){
+					
+					var src = $('.img1x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('1 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x2-btn"><img class="img1x2" src="../images/beautiful-1844729_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x2-btn').click(function(){
+					
+					var src = $('.img1x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('2 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x3-btn"><img class="img1x3" src="../images/fashion-1063100_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x3-btn').click(function(){
+					
+					var src = $('.img1x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('3 of 16');
+				});
+			</script>		
+			</a>
+			
+			<a href="#" class="img1x4-btn"><img class="img1x4" src="../images/girl-1733352_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x4-btn').click(function(){
+					
+					var src = $('.img1x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('4 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img2x1-btn"><img class="img2x1" src="../images/dress-864107_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x1-btn').click(function(){
+				
+					var src = $('.img2x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('5 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x2-btn"><img class="img2x2" src="../images/model-1246488_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x2-btn').click(function(){
+				
+					var src = $('.img2x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('6 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x3-btn"><img class="img2x3" src="../images/model-1963257_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x3-btn').click(function(){
+				
+					var src = $('.img2x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('7 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x4-btn"><img class="img2x4" src="../images/waters-3225725_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x4-btn').click(function(){
+					
+					var src = $('.img2x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('8 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img3x1-btn"><img class="img3x1" src="../images/model-2303361_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x1-btn').click(function(){
+					
+					var src = $('.img3x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('9 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x2-btn"><img class="img3x2" src="../images/people-2567915_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x2-btn').click(function(){
+					
+					var src = $('.img3x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('10 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x3-btn"><img class="img3x3" src="../images/woman-1320810_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x3-btn').click(function(){
+					
+					var src = $('.img3x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('11 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x4-btn"><img class="img3x4" src="../images/woman-1245926_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x4-btn').click(function(){
+					
+					var src = $('.img3x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('12 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img4x1-btn"><img class="img4x1" src="../images/pink-hair-1450045_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x1-btn').click(function(){
+					
+					var src = $('.img4x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('13 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x2-btn"><img class="img4x2" src="../images/people-2592247_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x2-btn').click(function(){
+					
+					var src = $('.img4x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('14 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x3-btn"><img class="img4x3" src="../images/young-girl-531252_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x3-btn').click(function(){
+					
+					var src = $('.img4x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('15 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x4-btn"><img class="img4x4" src="../images/woman-1822459_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x4-btn').click(function(){
+					
+					var src = $('.img4x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('16 of 16');
+				});
+			</script>
+			</a>
+		
+			
+		
+		
+		</div>	
+		
+		<div id="arms" style="display:none;">
+			<h1 class="h-text">Images-Grid</h1>
+			<a href="#" class="img1x1-btn"><img class="img1x1" src="../images/beautiful-1274056_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x1-btn').click(function(){
+					
+					var src = $('.img1x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('1 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x2-btn"><img class="img1x2" src="../images/beautiful-1844729_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x2-btn').click(function(){
+					
+					var src = $('.img1x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('2 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x3-btn"><img class="img1x3" src="../images/fashion-1063100_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x3-btn').click(function(){
+					
+					var src = $('.img1x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('3 of 16');
+				});
+			</script>		
+			</a>
+			
+			<a href="#" class="img1x4-btn"><img class="img1x4" src="../images/girl-1733352_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x4-btn').click(function(){
+					
+					var src = $('.img1x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('4 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img2x1-btn"><img class="img2x1" src="../images/dress-864107_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x1-btn').click(function(){
+				
+					var src = $('.img2x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('5 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x2-btn"><img class="img2x2" src="../images/model-1246488_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x2-btn').click(function(){
+				
+					var src = $('.img2x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('6 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x3-btn"><img class="img2x3" src="../images/model-1963257_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x3-btn').click(function(){
+				
+					var src = $('.img2x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('7 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x4-btn"><img class="img2x4" src="../images/waters-3225725_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x4-btn').click(function(){
+					
+					var src = $('.img2x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('8 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img3x1-btn"><img class="img3x1" src="../images/model-2303361_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x1-btn').click(function(){
+					
+					var src = $('.img3x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('9 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x2-btn"><img class="img3x2" src="../images/people-2567915_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x2-btn').click(function(){
+					
+					var src = $('.img3x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('10 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x3-btn"><img class="img3x3" src="../images/woman-1320810_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x3-btn').click(function(){
+					
+					var src = $('.img3x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('11 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x4-btn"><img class="img3x4" src="../images/woman-1245926_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x4-btn').click(function(){
+					
+					var src = $('.img3x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('12 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img4x1-btn"><img class="img4x1" src="../images/pink-hair-1450045_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x1-btn').click(function(){
+					
+					var src = $('.img4x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('13 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x2-btn"><img class="img4x2" src="../images/people-2592247_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x2-btn').click(function(){
+					
+					var src = $('.img4x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('14 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x3-btn"><img class="img4x3" src="../images/young-girl-531252_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x3-btn').click(function(){
+					
+					var src = $('.img4x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('15 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x4-btn"><img class="img4x4" src="../images/woman-1822459_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x4-btn').click(function(){
+					
+					var src = $('.img4x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('16 of 16');
+				});
+			</script>
+			</a>
+		
+			
+		
+		
+		</div>	
+		
+		<div id="chin" style="display:none;">
+			<h1 class="h-text">Images-Grid</h1>
+			<a href="#" class="img1x1-btn"><img class="img1x1" src="../images/beautiful-1274056_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x1-btn').click(function(){
+					
+					var src = $('.img1x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('1 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x2-btn"><img class="img1x2" src="../images/beautiful-1844729_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x2-btn').click(function(){
+					
+					var src = $('.img1x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('2 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x3-btn"><img class="img1x3" src="../images/fashion-1063100_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x3-btn').click(function(){
+					
+					var src = $('.img1x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('3 of 16');
+				});
+			</script>		
+			</a>
+			
+			<a href="#" class="img1x4-btn"><img class="img1x4" src="../images/girl-1733352_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x4-btn').click(function(){
+					
+					var src = $('.img1x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('4 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img2x1-btn"><img class="img2x1" src="../images/dress-864107_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x1-btn').click(function(){
+				
+					var src = $('.img2x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('5 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x2-btn"><img class="img2x2" src="../images/model-1246488_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x2-btn').click(function(){
+				
+					var src = $('.img2x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('6 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x3-btn"><img class="img2x3" src="../images/model-1963257_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x3-btn').click(function(){
+				
+					var src = $('.img2x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('7 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x4-btn"><img class="img2x4" src="../images/waters-3225725_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x4-btn').click(function(){
+					
+					var src = $('.img2x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('8 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img3x1-btn"><img class="img3x1" src="../images/model-2303361_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x1-btn').click(function(){
+					
+					var src = $('.img3x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('9 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x2-btn"><img class="img3x2" src="../images/people-2567915_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x2-btn').click(function(){
+					
+					var src = $('.img3x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('10 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x3-btn"><img class="img3x3" src="../images/woman-1320810_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x3-btn').click(function(){
+					
+					var src = $('.img3x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('11 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x4-btn"><img class="img3x4" src="../images/woman-1245926_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x4-btn').click(function(){
+					
+					var src = $('.img3x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('12 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img4x1-btn"><img class="img4x1" src="../images/pink-hair-1450045_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x1-btn').click(function(){
+					
+					var src = $('.img4x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('13 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x2-btn"><img class="img4x2" src="../images/people-2592247_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x2-btn').click(function(){
+					
+					var src = $('.img4x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('14 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x3-btn"><img class="img4x3" src="../images/young-girl-531252_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x3-btn').click(function(){
+					
+					var src = $('.img4x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('15 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x4-btn"><img class="img4x4" src="../images/woman-1822459_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x4-btn').click(function(){
+					
+					var src = $('.img4x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('16 of 16');
+				});
+			</script>
+			</a>
+		
+			
+		
+		
+		</div>	
+		
+		<div id="lgvol" style="display:none;">
+			<h1 class="h-text">Images-Grid</h1>
+			<a href="#" class="img1x1-btn"><img class="img1x1" src="../images/beautiful-1274056_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x1-btn').click(function(){
+					
+					var src = $('.img1x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('1 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x2-btn"><img class="img1x2" src="../images/beautiful-1844729_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x2-btn').click(function(){
+					
+					var src = $('.img1x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('2 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x3-btn"><img class="img1x3" src="../images/fashion-1063100_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x3-btn').click(function(){
+					
+					var src = $('.img1x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('3 of 16');
+				});
+			</script>		
+			</a>
+			
+			<a href="#" class="img1x4-btn"><img class="img1x4" src="../images/girl-1733352_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x4-btn').click(function(){
+					
+					var src = $('.img1x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('4 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img2x1-btn"><img class="img2x1" src="../images/dress-864107_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x1-btn').click(function(){
+				
+					var src = $('.img2x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('5 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x2-btn"><img class="img2x2" src="../images/model-1246488_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x2-btn').click(function(){
+				
+					var src = $('.img2x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('6 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x3-btn"><img class="img2x3" src="../images/model-1963257_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x3-btn').click(function(){
+				
+					var src = $('.img2x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('7 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x4-btn"><img class="img2x4" src="../images/waters-3225725_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x4-btn').click(function(){
+					
+					var src = $('.img2x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('8 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img3x1-btn"><img class="img3x1" src="../images/model-2303361_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x1-btn').click(function(){
+					
+					var src = $('.img3x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('9 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x2-btn"><img class="img3x2" src="../images/people-2567915_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x2-btn').click(function(){
+					
+					var src = $('.img3x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('10 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x3-btn"><img class="img3x3" src="../images/woman-1320810_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x3-btn').click(function(){
+					
+					var src = $('.img3x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('11 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x4-btn"><img class="img3x4" src="../images/woman-1245926_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x4-btn').click(function(){
+					
+					var src = $('.img3x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('12 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img4x1-btn"><img class="img4x1" src="../images/pink-hair-1450045_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x1-btn').click(function(){
+					
+					var src = $('.img4x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('13 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x2-btn"><img class="img4x2" src="../images/people-2592247_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x2-btn').click(function(){
+					
+					var src = $('.img4x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('14 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x3-btn"><img class="img4x3" src="../images/young-girl-531252_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x3-btn').click(function(){
+					
+					var src = $('.img4x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('15 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x4-btn"><img class="img4x4" src="../images/woman-1822459_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x4-btn').click(function(){
+					
+					var src = $('.img4x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('16 of 16');
+				});
+			</script>
+			</a>
+		
+			
+		
+		
+		</div>	
+		
+		<div id="lbody" style="display:none;">
+			<h1 class="h-text">Images-Grid</h1>
+			<a href="#" class="img1x1-btn"><img class="img1x1" src="../images/beautiful-1274056_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x1-btn').click(function(){
+					
+					var src = $('.img1x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('1 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x2-btn"><img class="img1x2" src="../images/beautiful-1844729_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x2-btn').click(function(){
+					
+					var src = $('.img1x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('2 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x3-btn"><img class="img1x3" src="../images/fashion-1063100_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x3-btn').click(function(){
+					
+					var src = $('.img1x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('3 of 16');
+				});
+			</script>		
+			</a>
+			
+			<a href="#" class="img1x4-btn"><img class="img1x4" src="../images/girl-1733352_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x4-btn').click(function(){
+					
+					var src = $('.img1x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('4 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img2x1-btn"><img class="img2x1" src="../images/dress-864107_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x1-btn').click(function(){
+				
+					var src = $('.img2x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('5 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x2-btn"><img class="img2x2" src="../images/model-1246488_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x2-btn').click(function(){
+				
+					var src = $('.img2x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('6 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x3-btn"><img class="img2x3" src="../images/model-1963257_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x3-btn').click(function(){
+				
+					var src = $('.img2x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('7 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x4-btn"><img class="img2x4" src="../images/waters-3225725_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x4-btn').click(function(){
+					
+					var src = $('.img2x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('8 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img3x1-btn"><img class="img3x1" src="../images/model-2303361_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x1-btn').click(function(){
+					
+					var src = $('.img3x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('9 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x2-btn"><img class="img3x2" src="../images/people-2567915_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x2-btn').click(function(){
+					
+					var src = $('.img3x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('10 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x3-btn"><img class="img3x3" src="../images/woman-1320810_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x3-btn').click(function(){
+					
+					var src = $('.img3x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('11 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x4-btn"><img class="img3x4" src="../images/woman-1245926_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x4-btn').click(function(){
+					
+					var src = $('.img3x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('12 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img4x1-btn"><img class="img4x1" src="../images/pink-hair-1450045_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x1-btn').click(function(){
+					
+					var src = $('.img4x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('13 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x2-btn"><img class="img4x2" src="../images/people-2592247_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x2-btn').click(function(){
+					
+					var src = $('.img4x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('14 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x3-btn"><img class="img4x3" src="../images/young-girl-531252_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x3-btn').click(function(){
+					
+					var src = $('.img4x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('15 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x4-btn"><img class="img4x4" src="../images/woman-1822459_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x4-btn').click(function(){
+					
+					var src = $('.img4x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('16 of 16');
+				});
+			</script>
+			</a>
+		
+			
+		
+		
+		</div>	
+		
+		<div id="mchest" style="display:none;">
+			<h1 class="h-text">Images-Grid</h1>
+			<a href="#" class="img1x1-btn"><img class="img1x1" src="../images/beautiful-1274056_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x1-btn').click(function(){
+					
+					var src = $('.img1x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('1 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x2-btn"><img class="img1x2" src="../images/beautiful-1844729_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x2-btn').click(function(){
+					
+					var src = $('.img1x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('2 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img1x3-btn"><img class="img1x3" src="../images/fashion-1063100_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x3-btn').click(function(){
+					
+					var src = $('.img1x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('3 of 16');
+				});
+			</script>		
+			</a>
+			
+			<a href="#" class="img1x4-btn"><img class="img1x4" src="../images/girl-1733352_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img1x4-btn').click(function(){
+					
+					var src = $('.img1x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('4 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img2x1-btn"><img class="img2x1" src="../images/dress-864107_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x1-btn').click(function(){
+				
+					var src = $('.img2x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('5 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x2-btn"><img class="img2x2" src="../images/model-1246488_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x2-btn').click(function(){
+				
+					var src = $('.img2x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('6 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x3-btn"><img class="img2x3" src="../images/model-1963257_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x3-btn').click(function(){
+				
+					var src = $('.img2x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('7 of 16');
+					
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img2x4-btn"><img class="img2x4" src="../images/waters-3225725_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img2x4-btn').click(function(){
+					
+					var src = $('.img2x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('8 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img3x1-btn"><img class="img3x1" src="../images/model-2303361_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x1-btn').click(function(){
+					
+					var src = $('.img3x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('9 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x2-btn"><img class="img3x2" src="../images/people-2567915_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x2-btn').click(function(){
+					
+					var src = $('.img3x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('10 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x3-btn"><img class="img3x3" src="../images/woman-1320810_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x3-btn').click(function(){
+					
+					var src = $('.img3x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('11 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img3x4-btn"><img class="img3x4" src="../images/woman-1245926_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img3x4-btn').click(function(){
+					
+					var src = $('.img3x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('12 of 16');
+				});
+			</script>
+			</a>
+		
+			
+			<a href="#" class="img4x1-btn"><img class="img4x1" src="../images/pink-hair-1450045_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x1-btn').click(function(){
+					
+					var src = $('.img4x1-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('13 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x2-btn"><img class="img4x2" src="../images/people-2592247_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x2-btn').click(function(){
+					
+					var src = $('.img4x2-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('14 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x3-btn"><img class="img4x3" src="../images/young-girl-531252_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x3-btn').click(function(){
+					
+					var src = $('.img4x3-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('15 of 16');
+				});
+			</script>
+			</a>
+			
+			<a href="#" class="img4x4-btn"><img class="img4x4" src="../images/woman-1822459_1920.jpg"/>
+				<script type="text/javascript">
+				$('.img4x4-btn').click(function(){
+					
+					var src = $('.img4x4-btn').children().attr('src');
+					
+					$('#ltb-wrap').css('display','flex');
+					$('.ltb-img').attr('src', src);
+					
+					$('.img-desc').text('16 of 16');
+				});
+			</script>
+			</a>
+		
+			
+		
+		
+		</div>	
+		
+			
+		</div>
+		
+		
+		<div class="item3">
+		<h1 class="h-text">Schedule Your Free Consultation</h1>
+				
+			<p class="desc-cont">Consultation Content</p>
+			
+			<a class="btn-text" href="#"><div class="consult-btn-graphic">SCHEDULE NOW</div></a>
+			</div>
+	
+		
+	</div>
+		
+		</div>
+		
+		
+	
+	<div id="ltb-wrap">
+		
+			
+		<div id="ltb">
+			<!--<a href="#" class="img-right">&#10162;
+				<script>
+									
+				</script>
+			</a>-->
+			
+			
+			<a href="#" class="x-btn">X
+			<script type="text/javascript">
+				$('.x-btn').click(function(){
+					$('#ltb-wrap').css('display','none');
+					});
+			</script></a>
+			
+			
+			
+				
+				 <img class="ltb-img"  src="../images/display.jpg" />
+				
+				
+				
+			
+			
+			<p class="img-desc">""</p>
+			<!--<a href="#" class="img-left">&#10162;
+				<script>
+				
+				</script>
+			</a>-->
+			
+			
+		</div>
+	
+	</div>
+
+	
+		<!--Insert footer here-->
+	
+
+</body>
+</html>
