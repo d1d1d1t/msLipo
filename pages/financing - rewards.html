@@ -1,0 +1,534 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name ="viewport"
+		  content="width=device-width,initial-scale=1.0">
+	
+<title>Financing - Rewards</title>
+	
+	
+
+
+	<script type="text/javascript" src="../scripts/jquery.(3.3.1).min.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="../styles(mobile)/financing-rewards(mobile).css">-->
+	<link rel="stylesheet" type="text/css" href="../styles(mobile)/header-structure(mobile).css">
+	<link rel="stylesheet" type="text/css" href="../styles(mobile)/footer-structure(mobile).css">
+	
+	<style>
+		
+	
+	#wrapper{height:auto;}
+	body{/*background-color:rgba(0,0,0,0.10);*/background-image:url("../images/15488-(edit).jpg");background-position:bottom;background-attachment:fixed;}
+	
+
+	/*Insert .header CSS-HERE*/
+/*------------------------------------------------------------------*/
+/*|								=== |*/
+/*|								=== |*/
+/*|							        === |*/	
+/*-------------------------------------------------------------------*/
+
+
+	
+	.abt1{width:45%;grid-area:about;float:left;padding-right:10px;}
+	
+	.abt1-img{grid-area:about;width:100%;}
+	
+	.abt2{width:auto;grid-area:about;padding-right:5px;}
+	
+	.svc1{
+		margin-top:20px;
+		margin-bottom:20px;
+		width:100%;
+		grid-area:prf;
+		float:left;
+		padding-right:10px;
+		
+		display:grid;
+		grid-gap:10px;
+		
+		grid-template-row: auto auto;
+		grid-template-columns: auto auto auto;
+		
+		grid-template-areas: 'pay1 pay2 pay3'
+								'pay4 pay5 pay6';
+		}
+		
+		.pay-img1{margin-top:2%;margin-bottom:2%;grid-area:pay1;}
+		.pay-img2{margin-top:2%;margin-bottom:2%;grid-area:pay2;}
+		.pay-img3{margin-top:15%;margin-bottom:2%;grid-area:pay3;}
+		
+		
+		
+		.pay-img4{margin-top:2%;margin-bottom:2%;grid-area:pay4;}
+		.pay-img5{margin-top:2%;margin-bottom:2%;grid-area:pay5;}
+		.pay-img6{margin-top:2%;margin-bottom:2%;grid-area:pay6;}
+	
+	.svc-img{grid-area:prf;width:100%;}
+		
+	
+	.svc2{width:auto;grid-area:prf;padding-right:5px;}
+	
+	.btn-text{text-decoration:none;font-family:"Montserrat";}
+	.btn-text>.consult-btn-graphic{
+		box-shadow: .5px .5px 2px .5px black;
+		border-radius:4px;
+		margin-bottom: 5px;
+		color:white;
+		text-decoration:none;
+		text-align:center;
+		
+		width: auto;
+		height:20px;
+		padding-top:2%;
+		padding-bottom:2%;
+		background-color:#E6038A;}
+		
+	.h-text{
+		width:100%;
+		font-size: 20px;
+		background-color: #000000;
+  color: rgba(0,0,0,.20);
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+		margin:0px;
+	font-family:"Montserrat";
+}
+	.desc-cont{
+		font-size:15px;
+		font-weight:300;
+		font-family:"Montserrat";
+		color:rgba(000,000,000,.5);
+	}
+	
+	.rp-cont{
+		text-align:center;
+		list-style:none;
+	
+		font-family:"Montserrat";
+		
+		font-size:15px;
+		font-weight:300;
+		
+		color:rgba(000,000,000,.5);
+		}
+	
+	
+	
+	.title1{
+		height:auto;
+		grid-area:title1;
+		grid-row:1;
+		grid-column:1/2;
+		
+		}
+	.title1 > h1{
+		width:100%;
+		height:100px;
+		margin-bottom:0px;
+		background-color:green;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;}
+	
+	
+	.title1{
+		font-size:28px;
+		font-family:"Montserrat";
+		color:white;
+		text-align:center;
+		
+		vertical-align:bottom;
+	}
+	
+	.item1{
+		height:auto;
+		grid-area:lf; 
+		grid-row: 2;
+		grid-column: 2 / 4;
+		
+	}
+	
+	.item2{height:auto;
+		
+		grid-area:opt1;
+	grid-row: 3 / 1fr;
+	grid-column: 2 / 4;}
+	
+	.item3{height:auto;
+		grid-area:opt2;
+		grid-row: 4 / 1fr;
+	grid-column: 2 / 4;}
+	
+	.item4{height:auto;
+
+		grid-area:options;
+		grid-row: 5 / 1fr;
+	grid-column: 2 / 4;}
+	
+	.title2{
+		height:auto;
+		grid-area:title2;
+		grid-row:6;
+		grid-column: 1/2;
+		
+		}
+	.title2 > h1{
+		height:100px;
+		margin-bottom:0px;
+		background-color:green;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;}
+	
+	
+	.title2{
+		font-size:28px;
+		font-family:"Montserrat";
+		color:white;
+		text-align:center;
+		vertical-align:bottom;
+	}
+	
+	.item5{height:auto;
+
+		grid-area:value;
+		grid-row: 7 ;
+	grid-column: 2 / 4;}
+	
+	.item6{height:auto;
+
+		grid-area:how;
+		grid-row: 8 ;
+	grid-column: 2 / 4;}
+	
+	
+	.item7{height:auto;
+
+		grid-area:redeem;
+		grid-row: 9;
+	grid-column: 2 / 4;}
+	
+	.item8{height:auto;
+
+		grid-area:rules;
+		grid-row: 10;
+	grid-column: 2 / 4;}
+	
+	.item9{
+	
+		
+		height:auto;
+		grid-area:consultation;
+		grid-row: 11;
+	grid-column: 1/9;}
+	
+	
+	
+	.grid-container{
+		margin-top:60px;
+		margin:-8.2px;
+		display:grid;
+		
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		
+		grid-template-rows: auto auto auto  auto auto auto auto auto auto auto;
+		
+		grid-template-areas: 
+			'title1 title1 title1 title1 title1 title1'
+			
+			'lf lf lf lf lf lf'
+			'opt1 opt1 opt1 opt1 opt1 opt1'
+					
+		'opt2 opt2 opt2 opt2 opt2 opt2'
+			
+		'options options options options options options '
+			'title2 title2 title2 title2 title2 title2'
+			'value value value value value value'
+			'how how how how how how'
+			'redeem redeem redeem redeem redeem redeem'
+			'rules rules rules rules rules rules'
+				
+			'consultation consultation consultation consultation consultation consultation';
+		
+					
+		grid-gap: 10px;
+		
+		background-color:rgba(0,0,0,0.0);
+		
+		padding:20px;
+		
+		}
+	
+	.grid-container > .title1{
+		background-image:linear-gradient(180deg,transparent, #A2A2A2,transparent);
+		
+		float:left;
+		box-shadow: inset -1px 0px 2px 2px rgba(000,000,000,.5);
+		border-radius:80px;
+				
+		
+	}
+		.title1 {margin-left:5%;}
+	
+	.grid-container > .title2{
+		background-image:linear-gradient(180deg,transparent, #a2a2a2,transparent);
+		
+		float:right;
+		box-shadow: inset -1px 0px 2px 2px rgba(000,000,000,.5);
+		border-radius:80px;
+		
+		
+	}
+		
+		.title2 {margin-left:5%;}
+	
+	.grid-container > .item1 {
+		margin-top:2%;
+		margin-bottom:2%;
+		padding:10px;
+		border-bottom:2px dotted #A2A2A2;
+	}
+	
+	.grid-container > .item2 {
+		margin-top:2%;
+		margin-bottom:2%;
+		width:auto;height:auto;
+		padding:10px;
+		border-bottom:2px dotted #A2A2A2;
+	}
+	
+	/*.item2 > .h-text{margin-top:240px;}*/
+	.item2 > .tour{width:100%;height:100%;border-radius:2px;}
+	
+	.grid-container > .item3 {
+		margin-top:2%;
+		margin-bottom:2%;
+		width:auto;height:auto;
+		padding:10px;
+		border-bottom:2px dotted #A2A2A2;
+	}
+	
+	
+	.grid-container > .item4 {
+		margin-top:2%;
+		margin-bottom:2%;
+	
+		padding:10px;
+	}
+	
+		.item4 > .svc1 > img{width:100%;float:right;}
+	 
+		.grid-container > .item5 {
+		margin-top:2%;
+		margin-bottom:2%;
+		padding:10px;
+		border-bottom:2px dotted #A2A2A2;
+		
+	
+	}
+	
+	.grid-container > .item6 {
+		margin-top:2%;
+		margin-bottom:2%;
+		padding:10px;
+		border-bottom:2px dotted #A2A2A2;
+	
+	}
+	
+	.grid-container > .item7 {
+		margin-top:2%;
+		margin-bottom:2%;
+		padding:10px;
+		border-bottom:2px dotted #A2A2A2;
+	
+	}
+	
+	.grid-container > .item8 {
+		margin-top:2%;
+		margin-bottom:2%;
+		padding:10px;
+	
+	}
+	
+	.grid-container > .item9{
+		width:auto;height:auto;margin-top:20px;border-radius:2px;padding:10px;box-shadow: 1px 1px 3px 1px black;border:rgba(230,3,138,0.50) thick solid;
+	}
+	
+	
+	
+	
+	
+	
+	
+	</style>
+	
+</head>
+
+<body>
+	
+		<!--Insert HEADER Div Here-->
+		
+	<div id="wrapper">
+	<div class= "grid-container">
+		
+			
+		<div class="title1">
+			<h1>Financing</h1>
+		</div>
+		
+	
+		<div class= "item1">
+			
+			<h1 class="h-text">Liposuction Financing</h1>
+				
+			<p class="desc-cont">All we Do Content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea inventore quae doloremque cum, asperiores, porro officia illum, fuga laborum doloribus libero fugiat voluptate blanditiis dicta nostrum tempora impedit corporis animi facere! Nostrum distinctio ea voluptatum illo accusamus ipsa repudiandae?</p>
+			
+				
+		</div>
+		
+		
+		<div class= "item2">
+		
+			<h1 class="h-text">Option1: Third Party Financing</h1>
+			<div class="svc1"><img class="svc-img" src="../images/model-1246488_1920.jpg"/></div>
+			
+			<p class="h-text">United Medical</p> 
+			
+			<p class="desc-cont"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea inventore quae doloremque cum, asperiores, porro officia illum, fuga laborum doloribus libero fugiat voluptate blanditiis dicta nostrum tempora impedit corporis animi facere! Nostrum distinctio ea voluptatum illo accusamus ipsa repudiandae?</p>
+			
+			<p class="h-text">Med Loan Financing</p> 
+			
+			<p class="desc-cont"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea inventore quae doloremque cum, asperiores, porro officia illum, fuga laborum doloribus libero fugiat voluptate blanditiis dicta nostrum tempora impedit corporis animi facere! Nostrum distinctio ea voluptatum illo accusamus ipsa repudiandae?</p>
+					  
+					  
+			<!--<video class="tour" src="../images/Office-Tour.mp4" autoplay="true" loop ></video>-->
+		</div>
+		
+		
+		<div class= "item3">
+	<h1 class="h-text">Option2: Payment Plan (Layaway)</h1>
+			
+			<div class="svc1"><img class="svc-img" src="../images/model-1246488_1920.jpg"/></div>
+			<div class="svc2"><p class="desc-cont">Permanently Remove Fat Content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore aliquam velit temporibus facilis, quae commodi veniam nemo fugit doloremque at impedit enim harum molestias a ipsam tenetur excepturi molestiae? Nam quod aliquam at itaque ea tempora esse incidunt tempore aliquid quisquam nisi voluptate provident repellendus molestias quidem unde, qui, sapiente quasi dolores cum suscipit quae consequatur necessitatibus consequuntur rerum. Id.</p></div>
+				
+		</div>
+		
+		<div class= "item4">
+	<h1 class="h-text">Payment Options</h1>
+			
+			<p class="desc-cont">We accept: *VISA, MasterCard, Discover and American Express * Cashiers checks, money orders Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum autem repudiandae reprehenderit, cupiditate earum, a exercitationem officiis ut illum similique.</p>
+			<div class="svc1">
+				
+				<img class="pay-img1" src="../images/cash-img.png"/>
+				<img class="pay-img2" src="../images/check-img.png"/>
+				<img class="pay-img3" src="../images/discover-img.png"/>
+				<img class="pay-img4" src="../images/American-Express-img.png"/>
+				<img class="pay-img5" src="../images/mastercard-img.png"/>
+				<img class="pay-img6" src="../images/visa-img.png"/>
+			
+			</div>
+				
+		</div>
+		
+	
+		
+		<div class="title2">
+			<h1>Rewards</h1>
+		</div>
+		
+		
+		<div class= "item5">
+	<h1 class="h-text">We Value You!</h1>
+			
+			<p class="desc-cont">We accept: *VISA, MasterCard, Discover and American Express * Cashiers checks, money orders Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum autem repudiandae reprehenderit, cupiditate earum, a exercitationem officiis ut illum similique.</p>
+			
+			
+			
+		</div>
+		
+		<div class= "item6">
+	<h1 class="h-text">How to earn Points?</h1>
+			
+			<div class="svc1"><img class="svc-img" src="../images/model-1246488_1920.jpg"/></div>
+			<div class="svc2"><p class="desc-cont">Permanently Remove Fat Content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore aliquam velit temporibus facilis, quae commodi veniam nemo fugit doloremque at impedit enim harum molestias a ipsam tenetur excepturi molestiae? Nam quod aliquam at itaque ea tempora esse incidunt tempore aliquid quisquam nisi voluptate provident repellendus molestias quidem unde, qui, sapiente quasi dolores cum suscipit quae consequatur necessitatibus consequuntur rerum. Id.</p></div>
+				
+		</div>
+		
+		
+		<div class= "item7">
+	<h1 class="h-text">Redeem Points</h1>
+			
+			<p class="desc-cont">Amount of Discount = Points Required</p>
+			<ul class="rp-cont">
+				<li>pts</li>
+				<li>pts</li>
+				<li>pts</li>
+				<li>pts</li>
+				<li>pts</li>
+				<li>pts</li>
+				<li>pts</li>
+			</ul>
+	
+		</div>
+		
+		<div class= "item8">
+	<h1 class="h-text">Rules & Regulations</h1>
+			
+			<ul class="desc-cont">
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			<li>rule</li>
+			</ul>
+	
+		</div>
+		
+		
+		
+		<div class="item9">
+		<h1 class="h-text">Schedule Your Free Consultation</h1>
+				
+			<p class="desc-cont">Consultation Content</p>
+			
+			<a class="btn-text" href="#"><div class="consult-btn-graphic">SCHEDULE NOW</div></a>
+			</div>
+	
+		
+		
+		
+		
+		</div>
+		
+		
+		</div>
+	
+		
+		
+	<!--Insert footer here-->
+		
+	
+
+</body>
+</html>

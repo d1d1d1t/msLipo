@@ -1,0 +1,331 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name ="viewport"
+		  content="width=device-width,initial-scale=1.0">
+	
+<title>Stretch Marks</title>
+	
+	
+
+
+	<script type="text/javascript" src="../scripts/jquery.(3.3.1).min.js"></script>
+
+	<!--<link rel="stylesheet" type="text/css" href="../styles(mobile)/stretch marks(mobile).css">-->
+	<link rel="stylesheet" type="text/css" href="../styles(mobile)/header-structure(mobile).css">
+	<link rel="stylesheet" type="text/css" href="../styles(mobile)/footer-structure(mobile).css">
+	
+	<style>
+	
+	body{/*background-color:rgba(0,0,0,0.10);*/background-image:url("../images/15488-(edit).jpg");background-position:bottom;background-attachment:fixed;}
+		
+	
+	/*Insert .header CSS-HERE*/
+/*------------------------------------------------------------------*/
+/*|								=== |*/
+/*|								=== |*/
+/*|							        === |*/	
+/*-------------------------------------------------------------------*/
+
+	
+	.abt1{width:45%;grid-area:about;float:left;padding-right:10px;}
+	
+	.abt1-img{grid-area:about;width:100%;}
+	
+	.abt2{width:auto;grid-area:about;padding-right:5px;}
+	
+	.svc1{margin-top:20px;margin-bottom:20px;width:100%;grid-area:prf;float:left;padding-right:10px;}
+	
+	.svc-img{grid-area:prf;width:100%;}
+	
+	.svc2{width:auto;grid-area:prf;padding-right:5px;}
+	
+	.btn-text{text-decoration:none;font-family:"Montserrat";}
+	.btn-text>.consult-btn-graphic{
+		box-shadow: .5px .5px 2px .5px black;
+		border-radius:4px;
+		margin-bottom: 5px;
+		color:white;
+		text-decoration:none;
+		text-align:center;
+		margin-left:40%;
+		width: 20%;
+		height:auto;
+		padding-top:1%;
+		padding-bottom:1%;
+		background-color:#E6038A;}
+		
+	.h-text{
+		width:100%;
+		font-size: 20px;
+		background-color: #000000;
+  color: rgba(0,0,0,.20);
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+		margin:0px;
+	font-family:"Montserrat";
+}
+	.desc-cont{
+		font-size:15px;
+		font-weight:300;
+		font-family:"Montserrat";
+		color:rgba(000,000,000,.5);
+	}
+	#wrapper{height:auto;}
+	
+	
+	.title{
+		height:auto;
+		grid-area:title;
+		grid-row:1;
+		grid-column:1/9;
+		
+		}
+	.title > h1{
+		margin-left:2%;
+		height:auto;
+		margin-bottom:0px;
+		background-color:green;
+		color: transparent;
+		text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;}
+	
+	
+	.title{
+		font-size:26px;
+		font-family:"Montserrat";
+		color:white;
+		
+		vertical-align:bottom;
+	}
+	
+	.item1{
+		height:auto;
+		grid-area:what; 
+		grid-row: 2;
+		grid-column: 2/4;
+		
+	}
+	
+	.item2{height:auto;
+		
+		grid-area:testimonial;
+	grid-row: 3;
+	grid-column: 2/4;}
+	
+	.item3{height:auto;
+		
+		grid-area:how;
+	grid-row: 4;
+	grid-column: 2/4;}
+	
+	.item4{height:auto;
+		grid-area:noninvasive;
+		grid-row: 5;
+	grid-column: 2/4;}
+	
+	.item5{height:auto;
+
+		grid-area:minimally;
+		grid-row: 6;
+	grid-column: 2/4;}
+	
+	
+	.item6{
+	
+		
+		height:auto;
+		grid-area:consultation;
+		grid-row: 7;
+	grid-column: 1 / 9;}
+	
+	
+	.grid-container{
+		margin-top:60px;
+		margin:-8.2px;
+		display:grid;
+		
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		
+		grid-template-rows: auto auto auto  auto auto auto;
+		
+		grid-template-areas: 
+			
+			'title title title title title title'
+			
+			'what what what what what what'
+			
+			'testimonial testimonial testimonial testimonial testimonial testimonial'
+				
+			'how how how how how how'	
+			
+			'noninvasive noninvasive noninvasive noninvasive noninvasive noninvasive'
+			
+			'minimally minimally minimally minimally minimally minimally'
+		
+			
+			
+				
+			'consultation consultation consultation consultation consultation consultation';
+		
+					
+		grid-gap: 10px;
+		
+		background-color:rgba(0,0,0,0.0);
+		
+		
+		
+		}
+	
+	.grid-container > .item1 {
+		margin-top:2%;
+		margin-bottom:2%;
+	}
+	
+	.grid-container > .item2 {
+		width:auto;height:auto;
+		margin-top:2%;
+		margin-bottom:2%;
+	}
+	
+	/*.item2 > .h-text{margin-top:240px;}*/
+	.item2 > .tour{width:100%;height:100%;border-radius:2px;}
+	
+	.grid-container > .item3 {
+		width:auto;height:auto;
+		margin-top:2%;
+		margin-bottom:2%;
+		border-bottom: 2px dotted #A2A2A2;
+	}
+	
+	
+	.grid-container > .item4 {
+		margin-top:2%;
+		margin-bottom:2%;
+		border-bottom: 2px dotted #A2A2A2;
+	
+	}
+	
+	.grid-container > .item5 {
+		margin-top:2%;
+		margin-bottom:2%;
+	
+	}
+	
+	
+	
+	
+	.grid-container > .item6{
+		width:auto;height:auto;margin-top:20px;border-radius:2px;padding:10px;box-shadow: 1px 1px 3px 1px black;background-color:rgba(230,3,138,0.50);
+	}
+	
+	.item6 > h1{text-align:center;}
+	.item6 > p{text-align:center;}
+	
+	
+	
+	
+	
+	/*[Insert .footer CSS here]*/
+
+	</style>
+	
+</head>
+
+<body>
+	
+	<!--Insert HEADER Div Here-->	
+		
+	<div id="wrapper">
+	<div class= "grid-container">
+		
+			
+		<div class="title">
+			<h1>Stretch Marks</h1>
+		</div>
+		
+	
+		<div class= "item1">
+			
+			<h1 class="h-text">What are Stretch Marks</h1>
+				
+			<p class="desc-cont">All we Do Content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea inventore quae doloremque cum, asperiores, porro officia illum, fuga laborum doloribus libero fugiat voluptate blanditiis dicta nostrum tempora impedit corporis animi facere! Nostrum distinctio ea voluptatum illo accusamus ipsa repudiandae?</p>
+			
+		</div>
+		
+		
+		<div class= "item2">
+		
+			<video class="tour" src="../images/Office-Tour.mp4" autoplay="true" loop ></video>
+		</div>
+		
+			
+		<div class= "item3">
+		<h1 class="h-text">How can I reduce the siza and appearance of Stretch Marks</h1>
+			<div class="svc1"><img class="svc-img" src="../images/model-1246488_1920.jpg"/></div>
+			<div class="svc2">
+				
+			<p class="desc-cont">Venus Legacy Content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore aliquam velit temporibus facilis, quae commodi veniam nemo fugit doloremque at impedit enim harum molestias a ipsam tenetur excepturi molestiae?</p>
+				
+					
+			</div>
+			
+		</div>
+		
+		<div class= "item4">
+	<h1 class="h-text">Non-Invasive</h1>
+			<p class="desc-cont">Aging Process Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi eum eos iste officia ipsum animi, iure quasi, odio eveniet ab quidem minima! Maiores dignissimos iste rem in, saepe eius accusamus illum magnam necessitatibus minima pariatur non esse mollitia vitae fugit, reprehenderit reiciendis aperiam? In est ullam, tempora officiis molestias nihil.</p>
+			
+			<p class="desc-cont">Aging Process Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aut id deserunt, labore nisi illo ratione praesentium, ad at aspernatur.</p>
+			
+			
+		</div>
+		
+		
+		
+		<div class= "item5">
+	<h1 class="h-text">Minimally Invasive</h1>
+	
+			
+			<p class="desc-cont">Aging Process Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aut id deserunt, labore nisi illo ratione praesentium, ad at aspernatur.</p>
+			
+			
+		</div>
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		<div class="item6">
+		<h1 class="h-text">Schedule Your Free Consultation</h1>
+				
+			<p class="desc-cont">Consultation Content</p>
+			
+			<a class="btn-text" href="#"><div class="consult-btn-graphic">SCHEDULE NOW</div></a>
+			</div>
+	
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	
+	</div>
+		
+		<!--Insert footer here-->
+	
+
+</body>
+</html>
