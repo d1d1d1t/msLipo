@@ -1,5 +1,3 @@
 # msLipo
 
----
-permalink: /main.html
----
+
